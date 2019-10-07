@@ -35,17 +35,17 @@ The aesthetics of the app are up to you!
 The navigation of my App uses 3 StackNavigators and 1 TabNavigator:
 
 - MainNavigator (StackNavigator)
-- - SearchScreen
-- - MoviesScreen
-- - MovieDetailScreen
-- - SettingsScreen
-- - CreditTabsNavigator (TabNavigator)
-- - - CastNavigator (StackNavigator)
-- - - - CastScreen
-- - - - ProfileScreen
-- - - CrewNavigator (StackNavigator)
-- - - - CrewScreen
-- - - - ProfileScreen
+  - SearchScreen
+  - MoviesScreen
+  - MovieDetailScreen
+  - SettingsScreen
+  - CreditTabsNavigator (TabNavigator)
+    - CastNavigator (StackNavigator)
+      - CastScreen
+      - ProfileScreen
+    - CrewNavigator (StackNavigator)
+      - CrewScreen
+      - ProfileScreen
 
 ### Screens
 
