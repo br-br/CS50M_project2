@@ -58,3 +58,12 @@ When selecting a movie from the list, the `MovieDetailScreen` is shown with addi
 Clicking the credits button leads to the `CreditTabsNavigator` with two tabs showing the `CastScreen` and the `CrewScreen`. Both screens show a list of people with some basic information. When selected, the `ProfileScreen` of this person is shown.
 The profile contains a button to show movies with that person. When clicked, the `MoviesScreen` is shown again with the corresponding movies.
 If the user wants to do a new search from the beginning, she can click a header-button that clears the navigators (pop-to-top)
+
+### Lists
+
+The MovieScreen, the CrewScreen and the CastScreen use FlatList to render a potentially great number of items.
+The MovieDetailScreen and the ProfileScreen have a known number of elements - although the size of the elements will differ. Therefore, I use ScrollLists to make the screen scrollable if the content is larger than the app's screen.
+
+### Demo
+
+A demo video of my implementation can be watched here: https://youtu.be/shWMCl4o7Rs
