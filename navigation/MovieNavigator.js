@@ -178,11 +178,10 @@ const MainNavigator = createStackNavigator(
   },
   {
     initialRouteName: 'Search',
-    initialRouteParams: { lang: 'de' },
+    initialRouteParams: { lang: 'en' },
     defaultNavigationOptions: defaultStackNavOptions
   }
 );
 
 const MovieNavigator = createAppContainer(MainNavigator);
-
 export default MovieNavigator;
