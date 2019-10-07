@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Movie Browser",
+    "description": "Projekt2 of the course CS50M: Find movies using TMDb API",
+    "slug": "movie-browser",
+    "privacy": "public",
+    "sdkVersion": "34.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "net.bribre.MovieBrowser"
+    },
+    "android": {
+      "package": "net.bribre.MovieBrowser"
+    }
+  }
+}
