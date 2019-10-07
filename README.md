@@ -66,4 +66,4 @@ The MovieDetailScreen and the ProfileScreen have a known number of elements - al
 
 ### Demo
 
-A demo video of my implementation can be watched here: https://youtu.be/shWMCl4o7Rs
+A demo video of my implementation run on an Android emulator can be watched here: https://youtu.be/shWMCl4o7Rs
