@@ -1,5 +1,4 @@
-export const omdbAPI = 'http://www.omdbapi.com/?i=tt3896198&apikey=da641037';
-const apiKey = 'db5045d7fe24174eb6473d3dedc5a87e';
+const apiKey = '<YOUR API KEY';
 
 export const fetchMovieList = async (query, pages, lang) => {
   const region = lang.toUpperCase();
